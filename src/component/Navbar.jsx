@@ -66,8 +66,8 @@ export default function Navbar() {
           <ul className='container-1'>
             <li className='container-2'><b>creative demos</b> <div class="dropdown">
 
-  
-</div></li>
+
+            </div></li>
             <li className='container-2'><b>pages</b></li>
             <li className='container-2' ><b>  <Link className='about' to={'/About'}>about me</Link> </b></li>
             <li className='container-2'><b> <Link className='contect' to={'/Form'}>contect</Link></b></li>
@@ -483,8 +483,8 @@ export default function Navbar() {
           </div>}
 
 
-        {/* 
-        {PHOTOGRAPHY &&
+        
+        {photo &&
         <div className='row'>
           <div className='col-6 '>
             <div className='container'>
@@ -597,21 +597,12 @@ export default function Navbar() {
 
           </div>
 
-        </div>} */}
+        </div>}
 
 
 
 
-        {/* <div>
-          <div className="row">
-            {Rawdata.map((item, index) => (
-              <div key={index} className="col-md-4 hover">
-                <img onMouseEnter={handlemouseEnter} onMouseLeave={handleMouseLeave} className="img-fluid" src={item.img} alt={`Image ${index + 1}`} />
-                {ishover && (<div className='hover-content'> sanjay</div>)}
-              </div>
-            ))}
-          </div>
-        </div>  */}
+       
 
 
       </div>
